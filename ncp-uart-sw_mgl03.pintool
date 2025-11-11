@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.EFR32MG1B232F256GM48" partId="mcu.arm.efr32.mg1.efr32mg1b232f256gm48" contextId="com.silabs.sdk.stack.super:4.5.0._-1079311705">
+  <mode name="DefaultMode">
+    <property object="DBG" propertyId="ABModule.selectedRequirement" value="dbg%T%SL_DEBUG%T%sl_debug_swo_config.h"/>
+    <property object="DBG" propertyId="ABPeripheral.included" value="true"/>
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="PA0" propertyId="pin.name" value=""/>
+    <property object="PA1" propertyId="pin.name" value=""/>
+    <property object="PA4" propertyId="pin.name" value=""/>
+    <property object="PA5" propertyId="pin.name" value=""/>
+    <property object="PB11" propertyId="ABModule.selectedRequirement" value="gpio%T%SL_EZSPSPI_HOST_INT%T%btl_ezsp_gpio_activation_cfg.h"/>
+    <property object="PB11" propertyId="pin.name" value=""/>
+    <property object="PB12" propertyId="pin.name" value=""/>
+    <property object="PB13" propertyId="pin.name" value=""/>
+    <property object="PORTIO" propertyId="portio.dbg.enable.swv" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.pti.location.dframe" value="5"/>
+    <property object="PORTIO" propertyId="portio.pti.location.dout" value="7"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.rx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.enable.tx" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.cts" value="1"/>
+    <property object="PORTIO" propertyId="portio.usart0.location.rts" value="31"/>
+    <property object="PTI" propertyId="ABModule.selectedRequirement" value="pti%T%SL_RAIL_UTIL_PTI%T%sl_rail_util_pti_config.h"/>
+    <property object="PTI" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART0" propertyId="ABModule.selectedRequirement" value="usart%T%SL_IOSTREAM_USART_VCOM%T%sl_iostream_usart_vcom_config.h"/>
+    <property object="USART0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="USART1" propertyId="ABPeripheral.included" value="true"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
