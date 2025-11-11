@@ -1,97 +1,36 @@
-# =========================================
-# Simplicity Studio 5 - Zigbee NCP Project
-# GNU Arm Embedded Toolchain
-# =========================================
-
-# --- Build and output directories ---
-/Debug/
-/Release/
-/build/
-/output/
-/bin/
-/obj/
-/autogen/
-/GeneratedFiles/
-/slcp/
-/slps/
-/slcc/
-/.pdm/
-/.simapp/
-/.simcfg/
-/.sdkconfig
-.slsettings
-
-# --- SDK-generated Zigbee sources ---
-/gatt_db.c
-/gatt_db.h
-/sl_zigbee_af_callbacks.c
-/sl_zigbee_af_config.c
-/sl_zigbee_af_handlers.c
-/sl_event_log.txt
-
-# --- GNU Arm Toolchain artifacts ---
-*.o
+## Standard C++ .ignore file
+# Prerequisites
 *.d
+ 
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+ 
+# Precompiled Headers
+*.gch
+*.pch
+ 
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+ 
+# Compiled Static libraries
+*.lai
+*.la
 *.a
-*.elf
-*.axf
-*.map
-*.lst
+*.lib
+ 
+# Executables
+*.exe
 *.out
-*.hex
-*.s37
+*.app
+ 
+# Added for Simplicity Studio 5 projects
+*.axf
+*.rsp
 *.bin
-*.size
-*.dump
-*.gcno
-*.gcda
-.dep/
-.deps/
-
-# --- Auto-generated make fragments ---
-subdir.mk
-subdirectories.mk
-
-# --- Simplicity Studio auto-generated project files ---
-.projectchecksums
-.projectlinkstore
-GNU ARM v*/**/makefile
-GNU ARM v*/**/objects.mk
-GNU ARM v*/**/sources.mk
-
-# --- Eclipse / IDE metadata ---
-.metadata/
-.settings/
-.project
-.cproject
-.loadpath
-/.idea/
-/.vscode/
-*.iml
-*.launch
-*.user
-*.workspace
-*.log
-*.bak
-*.tmp
-*.swp
-*.swo
-
-# --- OS-specific files ---
-.DS_Store
-Thumbs.db
-
-# --- Documentation outputs ---
-/doc/html/
-/doc/latex/
-/doc/doxygen/
-
-# --- Keep essential project sources ---
-!/src/
-!/config/
-!/include/
-!/Makefile
-!/README.md
-!/*.ld
-!/**/startup_efr32*.s
-
+*.out
+*.mk
